@@ -9,6 +9,7 @@ import { CrisisCenterModule } from './crisis-center/crisis-center.module';
 import { HeroesModule } from './heros/heroes.module';
 import { PageNotFoundComponent } from './not-found.component';
 import { ComposeMessageComponent } from './compose-message.component';
+import { AdminModule } from './admin/admin.module';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ComposeMessageComponent } from './compose-message.component';
     FormsModule,
     HttpModule,
     HeroesModule,
-    CrisisCenterModule,
+    AdminModule,
+    CrisisCenterModule,    
     AppRoutingModule
   ],
   providers: [],
