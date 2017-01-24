@@ -5,15 +5,23 @@ import { HttpModule } from '@angular/http';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
+import { CrisisCenterModule } from './crisis-center/crisis-center.module';
+import { HeroesModule } from './heros/heroes.module';
+import { PageNotFoundComponent } from './not-found.component';
+import { ComposeMessageComponent } from './compose-message.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ComposeMessageComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
+    HeroesModule,
+    CrisisCenterModule,
     AppRoutingModule
   ],
   providers: [],
