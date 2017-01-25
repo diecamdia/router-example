@@ -10,12 +10,16 @@ import { HeroesModule } from './heros/heroes.module';
 import { PageNotFoundComponent } from './not-found.component';
 import { ComposeMessageComponent } from './compose-message.component';
 import { AdminModule } from './admin/admin.module';
+import { LoginRoutingModule }      from './login-routing.module';
+import { LoginComponent }          from './login.component';
+import { DialogService }           from './dialog.service';
 
 @NgModule({
   declarations: [
     AppComponent,
     ComposeMessageComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -23,10 +27,11 @@ import { AdminModule } from './admin/admin.module';
     HttpModule,
     HeroesModule,
     AdminModule,
-    CrisisCenterModule,    
+    CrisisCenterModule,  
+    LoginRoutingModule,  
     AppRoutingModule
   ],
-  providers: [],
+  providers: [ DialogService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
