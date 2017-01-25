@@ -1,6 +1,8 @@
-# RouterExample
+# Router-Example
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.26.
+This project has been done step by step following the guide of Angular2 in order to learn about Routing and Navigation. The Url is
+https://angular.io/docs/ts/latest/guide/router.html. The following Url is the orginal example: https://embed.plnkr.co/?show=preview.
+This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.26
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

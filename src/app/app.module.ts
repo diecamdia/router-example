@@ -5,11 +5,11 @@ import { HttpModule } from '@angular/http';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
-import { CrisisCenterModule } from './crisis-center/crisis-center.module';
+// import { CrisisCenterModule } from './crisis-center/crisis-center.module';
 import { HeroesModule } from './heros/heroes.module';
 import { PageNotFoundComponent } from './not-found.component';
 import { ComposeMessageComponent } from './compose-message.component';
-import { AdminModule } from './admin/admin.module';
+// import { AdminModule } from './admin/admin.module';
 import { LoginRoutingModule }      from './login-routing.module';
 import { LoginComponent }          from './login.component';
 import { DialogService }           from './dialog.service';
@@ -26,8 +26,8 @@ import { DialogService }           from './dialog.service';
     FormsModule,
     HttpModule,
     HeroesModule,
-    AdminModule,
-    CrisisCenterModule,  
+    // AdminModule,
+    // CrisisCenterModule,  
     LoginRoutingModule,  
     AppRoutingModule
   ],
